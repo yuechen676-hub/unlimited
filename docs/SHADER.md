@@ -6,7 +6,7 @@
 
 ## 1. 要解决的问题
 
-这个游戏用材质变化作为解谜线索。所以 Shader 不只负责好看，还要传递信息：
+我把材质变化定为这个游戏的核心线索，所以 Shader 不只负责好看，还要传递信息。我需要解决这几件事：
 
 - 同一件器物上要同时存在两种表面：**工笔矿物风格**（未揭示）和**写实 PBR**（已揭示），两者之间要能连续过渡；
 - 揭示的范围由射线落点决定，必须是一个**三维空间里的区域**，而不是屏幕上的一个圆；
@@ -15,7 +15,7 @@
 
 ## 2. 第一版：Shader Graph 原型
 
-第一版用 Shader Graph 搭建（`Blend.shadergraph`），验证玩法是否成立：
+我先用 Shader Graph 搭了第一版（`Blend.shadergraph`），用来验证玩法是否成立：
 
 ```text
 Position(World) ─▶ Subtract(_HitPosWS) ─▶ Length ─▶ Smoothstep(_Radius - _Softness, _Radius) ─▶ One Minus = mask
@@ -23,9 +23,9 @@ A 组 PBR 贴图（Base / Mask / Roughness）─┐
 B 组 PBR 贴图（Base / Mask / Normal）   ─┴─▶ Lerp(mask) ─▶ BaseColor / Metallic / Smoothness / Normal
 ```
 
-脚本（`LaserMaterialSpreadPhysics`）每帧把射线落点和半径写进 `_HitPosWS` / `_Radius` / `_Softness`。这一版证明了「世界空间球形遮罩 + 脚本驱动半径」能用，后续版本沿用了这三个属性名，所以原有的射线脚本不用修改。
+脚本（`LaserMaterialSpreadPhysics`）每帧把射线落点和半径写进 `_HitPosWS` / `_Radius` / `_Softness`。这一版证明了「世界空间球形遮罩 + 脚本驱动半径」能用，后续版本沿用了这三个属性名，所以第一版的射线脚本不用修改。
 
-它的局限也在原型阶段暴露出来：两侧都是 PBR，差别只有贴图，读不出「两种质感」；Shader Graph 无法加自定义的阶梯光照，也无法加一个随揭示边界裁切的描边 pass。于是第二版改为手写 HLSL，原因记录在 [开发迭代](REVIEW.md)。
+它的局限也在原型阶段暴露出来：两侧都是 PBR，差别只有贴图，读不出「两种质感」；Shader Graph 无法加自定义的阶梯光照，也无法加一个随揭示边界裁切的描边 pass。于是我把第二版改为手写 HLSL，原因记录在 [开发迭代](REVIEW.md)。
 
 ## 3. 第二版：手写 URP Shader
 
@@ -39,7 +39,7 @@ B 组 PBR 贴图（Base / Mask / Normal）   ─┴─▶ Lerp(mask) ─▶ Base
 | `DepthOnly` | 深度预渲染 |
 | `DepthNormals` | 给 SSAO 等屏幕空间效果提供法线 |
 
-代码拆成 `Input`（属性与揭示函数）、`Lighting`（风格化光照）、`ForwardPass`、`OutlinePass`、`DepthPasses` 五个 `.hlsl` 文件。揭示函数只写一次，所有 pass 共用，保证颜色、描边、阴影看到的是同一个揭示边界。所有材质参数放在同一个 `UnityPerMaterial` 常量缓冲中，与 SRP Batcher 兼容。
+我把代码拆成 `Input`（属性与揭示函数）、`Lighting`（风格化光照）、`ForwardPass`、`OutlinePass`、`DepthPasses` 五个 `.hlsl` 文件。揭示函数只写一次，所有 pass 共用，保证颜色、描边、阴影看到的是同一个揭示边界。所有材质参数放在同一个 `UnityPerMaterial` 常量缓冲中，与 SRP Batcher 兼容。
 
 ### 3.2 同一套几何上的两种表面
 
@@ -103,7 +103,7 @@ clip(0.5 - ComputeReveal(input.positionWS, input.patternPos).reveal);   // 片�
 
 顶点和片元结构都带实例 ID 和立体渲染宏（`UNITY_VERTEX_OUTPUT_STEREO`、`UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX`），所有 pass 都支持 GPU Instancing。纹样来自物体空间，范围来自世界空间，左右眼看到的是同一个三维效果，而不是各自的屏幕空间效果。
 
-> 边界：以上是代码层面的接入措施，项目在 XR 模拟器中验证过。双眼一致性、边缘闪烁和帧耗时仍需要在真机上实测。
+> 以上是代码层面的处理，我在 XR 模拟器中验证过；真机上需要确认的项目列在 [验证与性能](VALIDATION.md#4-已知边界与待验证项) 中。
 
 ## 4. 环境 Shader：`Gongbi Environment`
 
@@ -114,7 +114,7 @@ clip(0.5 - ComputeReveal(input.positionWS, input.patternPos).reveal);   // 片�
 - 同样有 `_ToonSelfLight` 下限，完成演出压暗灯光时环境不会全黑；
 - 包含 `DepthOnly`、`ShadowCaster`，支持 GPU Instancing 和立体渲染。
 
-器物用功能完整的揭示 Shader，环境用这个只有一次三平面采样的 Shader，把片元开销集中在玩家真正注视的物体上。
+我让器物用功能完整的揭示 Shader，环境用这个只有一次三平面采样的 Shader，把片元开销集中在玩家真正注视的物体上。
 
 ## 5. 参数分组
 

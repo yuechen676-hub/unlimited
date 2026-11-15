@@ -21,7 +21,7 @@
 | `Room23PlayModeTests.Room3_MatchesRoom1` | 三号房（6 件）：同上 |
 | `GongbiV2PlayModeTests.NewMaterialsSurvivePlacementAndCompletion` | 三个房间共 18 件：放置和完成过程中材质不被覆盖，碰撞体正确，完成状态正确 |
 
-测试直接加载场景副本，用代码模拟射线命中和放置，然后检查 Shader 属性、`IsCorrect`、`IsCompleted` 和 [控制权表](FEEDBACK.md#4-控制权一览) 中的状态。关键步骤会截图，作为视觉对照。
+我写的测试直接加载场景副本，用代码模拟射线命中和放置，然后检查 Shader 属性、`IsCorrect`、`IsCompleted` 和 [控制权表](FEEDBACK.md#4-控制权一览) 中的状态。关键步骤会截图，作为视觉对照。
 
 ![测试中的揭示过程：未揭示 → 扩散 → 完全揭示 → 退回后](evidence/figures/playmode_reveal_sequence.jpg)
 
@@ -61,7 +61,7 @@
 | 完成后持续写属性 | 保持控制权 | 可以改为完成后停止更新 |
 | 消退时清空属性块 | 实现简单 | 以后如果多个组件共用属性块，需要统一属性的归属 |
 
-**我不报告未经测量的帧率、Draw Call 或 GPU 耗时。** 项目只在编辑器和 XR Device Simulator 中运行过，这些数据不代表头显上的表现。
+目前项目只在编辑器和 XR Device Simulator 中运行过，这些环境下的帧率不能代表头显上的表现，所以这里只列出实现上的取舍。真机测量是我下一步的首要工作，见下表。
 
 ## 4. 已知边界与待验证项
 
