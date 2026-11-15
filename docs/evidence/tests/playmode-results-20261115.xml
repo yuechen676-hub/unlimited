@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-15 15:50:41Z" end-time="2026-11-15 15:52:00Z" duration="78.6641096">
+  <test-suite type="TestSuite" id="1015" name="DUIZHAO" fullname="DUIZHAO" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-15 15:50:41Z" end-time="2026-11-15 15:52:00Z" duration="78.664110" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1011" name="StylizedReveal.Tests.PlayMode.dll" fullname="C:/Users/reborn/DUIZHAO/Library/ScriptAssemblies/StylizedReveal.Tests.PlayMode.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-15 15:50:41Z" end-time="2026-11-15 15:52:00Z" duration="78.658334" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="41728" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="GongbiV2PlayModeTests" fullname="GongbiV2PlayModeTests" classname="GongbiV2PlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-15 15:50:41Z" end-time="2026-11-15 15:50:54Z" duration="12.825165" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="NewMaterialsSurvivePlacementAndCompletion" fullname="GongbiV2PlayModeTests.NewMaterialsSurvivePlacementAndCompletion" methodname="NewMaterialsSurvivePlacementAndCompletion" classname="GongbiV2PlayModeTests" runstate="Runnable" seed="1199313060" result="Passed" start-time="2026-11-15 15:50:41Z" end-time="2026-11-15 15:50:54Z" duration="12.816447" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+Failed to create material drawer Header with arguments 'Stroke Texture (triplanar, offsets the ramp threshold)'
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+[RoomPuzzleManager] Puzzle complete. Slots=8
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+[RoomPuzzleManager] Puzzle complete. Slots=4
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+[RoomPuzzleManager] Puzzle complete. Slots=6
+
+IgnoreFailingMessages:false
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1003" name="RevealLaserPlayModeTests" fullname="RevealLaserPlayModeTests" classname="RevealLaserPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-15 15:50:54Z" end-time="2026-11-15 15:51:02Z" duration="7.810090" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1004" name="LaserRevealsTargetThenRetreats" fullname="RevealLaserPlayModeTests.LaserRevealsTargetThenRetreats" methodname="LaserRevealsTargetThenRetreats" classname="RevealLaserPlayModeTests" runstate="Runnable" seed="474740117" result="Passed" start-time="2026-11-15 15:50:54Z" end-time="2026-11-15 15:51:02Z" duration="7.808040" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+[StylizedRevealTest] 解绑前射线原点 activeInHierarchy=False，父节点=Right Controller
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1005" name="Room1PuzzlePlayModeTests" fullname="Room1PuzzlePlayModeTests" classname="Room1PuzzlePlayModeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-15 15:51:02Z" end-time="2026-11-15 15:51:40Z" duration="38.194648" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1007" name="GongbiV2_PatchThenPlaceThenFinale" fullname="Room1PuzzlePlayModeTests.GongbiV2_PatchThenPlaceThenFinale" methodname="GongbiV2_PatchThenPlaceThenFinale" classname="Room1PuzzlePlayModeTests" runstate="Runnable" seed="1116204861" result="Passed" start-time="2026-11-15 15:51:02Z" end-time="2026-11-15 15:51:21Z" duration="19.526994" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+HIT col=Retopo_柱体.015 | renderer=Retopo_柱体.015 | mat=Room01_porcelain
+[Room1PuzzleTest] 射线停留 1.5 秒后半径 0.70 米，器物最大边 2.94 米
+HIT col=Retopo_柱体.008 | renderer=Retopo_柱体.008 | mat=Room01_pottery
+HIT col=FloorCollider | renderer=null | mat=(no material)
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+[RoomPuzzleManager] Puzzle complete. Slots=8
+[Room1PuzzleTest] 完成后恢复 99 个零件，进度 100%
+[Room1PuzzleTest] 收尾接管：Retopo_Sphere.026 材质=Aluminium 1 着色器=DUIZHAO/Stylized Reveal 半径=0.95
+[Room1PuzzleTest] 收尾接管：立方体.119 材质=Metal Plates 5 着色器=DUIZHAO/Stylized Reveal 半径=1.46
+[Room1PuzzleTest] 收尾接管：贝塞尔曲线.016 材质=Asphalt 4 着色器=DUIZHAO/Stylized Reveal 半径=3.42
+[Room1PuzzleTest] 收尾接管：圆环.007 材质=Leather 3 着色器=DUIZHAO/Stylized Reveal 半径=1.83
+[Room1PuzzleTest] 收尾接管：圆环.008 材质=Concrete 5 着色器=DUIZHAO/Stylized Reveal 半径=2.61
+[Room1PuzzleTest] 收尾接管：环体.042 材质=RM copper hammered 着色器=DUIZHAO/Stylized Reveal 半径=1.65
+[Room1PuzzleTest] 收尾接管：圆环.012 材质=Room01_jade 着色器=DUIZHAO/Stylized Reveal 半径=1.88
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.034 材质=bamboo 着色器=DUIZHAO/Stylized Reveal 半径=1.44
+[Room1PuzzleTest] 收尾接管：柱体.007 材质=Paper 1 着色器=DUIZHAO/Stylized Reveal 半径=1.78
+[Room1PuzzleTest] 收尾接管：柱体.175 材质=RM gravel granite 着色器=DUIZHAO/Stylized Reveal 半径=1.36
+[Room1PuzzleTest] 收尾接管：圆环 材质=Room01_jade 着色器=DUIZHAO/Stylized Reveal 半径=1.97
+[Room1PuzzleTest] 收尾接管：立方体.187 材质=R1_19_silver 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：立方体.186 材质=Wood Planks 4 着色器=DUIZHAO/Stylized Reveal 半径=1.21
+[Room1PuzzleTest] 收尾接管：柱体.188 材质=RM metal rust red 着色器=DUIZHAO/Stylized Reveal 半径=2.03
+[Room1PuzzleTest] 收尾接管：柱体.195 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.43
+[Room1PuzzleTest] 收尾接管：环体.033 材质=Chipboard 着色器=DUIZHAO/Stylized Reveal 半径=4.24
+[Room1PuzzleTest] 收尾接管：柱体.172 材质=Aluminium 2 着色器=DUIZHAO/Stylized Reveal 半径=1.26
+[Room1PuzzleTest] 收尾接管：柱体.003 材质=RM copper used 着色器=DUIZHAO/Stylized Reveal 半径=1.17
+[Room1PuzzleTest] 收尾接管：柱体.192 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=3.16
+[Room1PuzzleTest] 收尾接管：圆环.022 材质=Metal Plates 5 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：立方体.319 材质=Asphalt 2 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：柱体.037 材质=Iron 4 着色器=DUIZHAO/Stylized Reveal 半径=1.52
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.025 材质=Painted Wood 4 着色器=DUIZHAO/Stylized Reveal 半径=1.93
+[Room1PuzzleTest] 收尾接管：圆环.024 材质=Plaster 4 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：Sphere.011 材质=Iron 5 着色器=DUIZHAO/Stylized Reveal 半径=1.00
+[Room1PuzzleTest] 收尾接管：圆环.016 材质=Room01_bronze 着色器=DUIZHAO/Stylized Reveal 半径=1.99
+[Room1PuzzleTest] 收尾接管：贝塞尔曲线.017 材质=Asphalt 4 着色器=DUIZHAO/Stylized Reveal 半径=2.46
+[Room1PuzzleTest] 收尾接管：柱体.204 材质=Room01_wood 着色器=DUIZHAO/Stylized Reveal 半径=3.24
+[Room1PuzzleTest] 收尾接管：柱体.001 材质=RM copper used 着色器=DUIZHAO/Stylized Reveal 半径=1.83
+[Room1PuzzleTest] 收尾接管：立方体.202 材质=Aluminium 2 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：圆环.018 材质=Room01_porcelain 着色器=DUIZHAO/Stylized Reveal 半径=1.15
+[Room1PuzzleTest] 收尾接管：立方体.194 材质=Foil 着色器=DUIZHAO/Stylized Reveal 半径=1.85
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.033 材质=Foil 着色器=DUIZHAO/Stylized Reveal 半径=2.08
+[Room1PuzzleTest] 收尾接管：柱体.055 材质=Concrete 1 着色器=DUIZHAO/Stylized Reveal 半径=3.17
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.015 材质=Room01_porcelain 着色器=DUIZHAO/Stylized Reveal 半径=2.53
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.038 材质=RM metal oxidized 着色器=DUIZHAO/Stylized Reveal 半径=2.16
+[Room1PuzzleTest] 收尾接管：环体.024 材质=Asphalt 2 着色器=DUIZHAO/Stylized Reveal 半径=1.99
+[Room1PuzzleTest] 收尾接管：柱体.039 材质=Asphalt 3 着色器=DUIZHAO/Stylized Reveal 半径=3.18
+[Room1PuzzleTest] 收尾接管：平面.011 材质=Leather 3 着色器=DUIZHAO/Stylized Reveal 半径=2.02
+[Room1PuzzleTest] 收尾接管：立方体.019 材质=RM copper hammered 着色器=DUIZHAO/Stylized Reveal 半径=1.55
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.008 材质=Room01_pottery 着色器=DUIZHAO/Stylized Reveal 半径=2.15
+[Room1PuzzleTest] 收尾接管：1 材质=Room01_jade 着色器=DUIZHAO/Stylized Reveal 半径=1.14
+[Room1PuzzleTest] 收尾接管：圆环.052 材质=Room01_porcelain 着色器=DUIZHAO/Stylized Reveal 半径=1.15
+[Room1PuzzleTest] 收尾接管：立方体.201 材质=Wood 1 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：柱体.193 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.43
+[Room1PuzzleTest] 收尾接管：柱体.185 材质=RM metal with dents 着色器=DUIZHAO/Stylized Reveal 半径=2.48
+[Room1PuzzleTest] 收尾接管：圆环.026 材质=RM steel cast raw 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：柱体.205 材质=Painted Wood 6 着色器=DUIZHAO/Stylized Reveal 半径=1.63
+[Room1PuzzleTest] 收尾接管：圆环.021 材质=RM wood panel lacquered 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：Retopo_Sphere.027 材质=Aluminium 1 着色器=DUIZHAO/Stylized Reveal 半径=0.95
+[Room1PuzzleTest] 收尾接管：球体.063 材质=metal 着色器=DUIZHAO/Stylized Reveal 半径=1.18
+[Room1PuzzleTest] 收尾接管：立方体.118 材质=Concrete 1 着色器=DUIZHAO/Stylized Reveal 半径=1.19
+[Room1PuzzleTest] 收尾接管：立方体.190 材质=RM copper hammered 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：柱体.170 材质=Painted Wood 6 着色器=DUIZHAO/Stylized Reveal 半径=3.01
+[Room1PuzzleTest] 收尾接管：球体.069 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.47
+[Room1PuzzleTest] 收尾接管：圆环.009 材质=Plaster 3 着色器=DUIZHAO/Stylized Reveal 半径=2.36
+[Room1PuzzleTest] 收尾接管：柱体.035 材质=Asphalt 3 着色器=DUIZHAO/Stylized Reveal 半径=3.07
+[Room1PuzzleTest] 收尾接管：柱体.174 材质=Rock 2 着色器=DUIZHAO/Stylized Reveal 半径=1.79
+[Room1PuzzleTest] 收尾接管：柱体.194 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=3.16
+[Room1PuzzleTest] 收尾接管：环体.034 材质=Glass 1 着色器=DUIZHAO/Stylized Reveal 半径=1.82
+[Room1PuzzleTest] 收尾接管：立方体.197 材质=Iron 3 着色器=DUIZHAO/Stylized Reveal 半径=2.24
+[Room1PuzzleTest] 收尾接管：圆环.013 材质=Room01_bamboo 着色器=DUIZHAO/Stylized Reveal 半径=3.23
+[Room1PuzzleTest] 收尾接管：Lathe.004 材质=RM steel sawed 着色器=DUIZHAO/Stylized Reveal 半径=2.11
+[Room1PuzzleTest] 收尾接管：立方体.096 材质=Plastic 2 着色器=DUIZHAO/Stylized Reveal 半径=1.68
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.035 材质=Asphalt 5 着色器=DUIZHAO/Stylized Reveal 半径=1.23
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.030 材质=RM metal beam rusty 着色器=DUIZHAO/Stylized Reveal 半径=2.42
+[Room1PuzzleTest] 收尾接管：球体.068 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.47
+[Room1PuzzleTest] 收尾接管：圆环.025 材质=Asphalt 2 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：立方体.196 材质=Plastic 2 着色器=DUIZHAO/Stylized Reveal 半径=2.24
+[Room1PuzzleTest] 收尾接管：立方体.191 材质=RM metal rust red 着色器=DUIZHAO/Stylized Reveal 半径=1.16
+[Room1PuzzleTest] 收尾接管：圆环.047 材质=Room01_pottery 着色器=DUIZHAO/Stylized Reveal 半径=1.14
+[Room1PuzzleTest] 收尾接管：圆环.015 材质=Room01_bronze 着色器=DUIZHAO/Stylized Reveal 半径=3.10
+[Room1PuzzleTest] 收尾接管：立方体.188 材质=RM steel sawed 着色器=DUIZHAO/Stylized Reveal 半径=1.10
+[Room1PuzzleTest] 收尾接管：球体.067 材质=Room01_porcelain 着色器=DUIZHAO/Stylized Reveal 半径=1.57
+[Room1PuzzleTest] 收尾接管：柱体.176 材质=RM aluminum used 着色器=DUIZHAO/Stylized Reveal 半径=2.27
+[Room1PuzzleTest] 收尾接管：平面.004 材质=RM copper used 着色器=DUIZHAO/Stylized Reveal 半径=1.82
+[Room1PuzzleTest] 收尾接管：环体.041 材质=Paper 2 着色器=DUIZHAO/Stylized Reveal 半径=1.57
+[Room1PuzzleTest] 收尾接管：圆环.019 材质=Room01_pottery 着色器=DUIZHAO/Stylized Reveal 半径=1.14
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.028 材质=Iron 5 着色器=DUIZHAO/Stylized Reveal 半径=1.42
+[Room1PuzzleTest] 收尾接管：立方体.184 材质=Rock 2 着色器=DUIZHAO/Stylized Reveal 半径=1.18
+[Room1PuzzleTest] 收尾接管：立方体.117 材质=Leather 3 着色器=DUIZHAO/Stylized Reveal 半径=1.94
+[Room1PuzzleTest] 收尾接管：环体.031 材质=RM metal old 着色器=DUIZHAO/Stylized Reveal 半径=2.05
+[Room1PuzzleTest] 收尾接管：柱体.036 材质=Metal Plates 4 着色器=DUIZHAO/Stylized Reveal 半径=1.42
+[Room1PuzzleTest] 收尾接管：Retopo_Sphere.028 材质=Aluminium 1 着色器=DUIZHAO/Stylized Reveal 半径=0.95
+[Room1PuzzleTest] 收尾接管：柱体.196 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.15
+[Room1PuzzleTest] 收尾接管：立方体.185 材质=RM brass spotty 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：圆环.006 材质=Plastic 2 着色器=DUIZHAO/Stylized Reveal 半径=2.15
+[Room1PuzzleTest] 收尾接管：柱体.038 材质=Painted Wood 3 着色器=DUIZHAO/Stylized Reveal 半径=1.52
+[Room1PuzzleTest] 收尾接管：立方体.116 材质=Concrete 1 着色器=DUIZHAO/Stylized Reveal 半径=5.59
+[Room1PuzzleTest] 收尾接管：柱体.197 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.15
+[Room1PuzzleTest] 收尾接管：圆环.010 材质=Iron 3 着色器=DUIZHAO/Stylized Reveal 半径=1.84
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.023 材质=Paper 4 着色器=DUIZHAO/Stylized Reveal 半径=1.84
+[Room1PuzzleTest] 收尾接管：柱体.187 材质=Glass 2 着色器=DUIZHAO/Stylized Reveal 半径=1.51
+[Room1PuzzleTest] 收尾接管：球体.072 材质=Leather 3 着色器=DUIZHAO/Stylized Reveal 半径=1.18
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.001 材质=Room01_stone 着色器=DUIZHAO/Stylized Reveal 半径=2.15
+[Room1PuzzleTest] 收尾接管：圆环.023 材质=RM wood panel lacquered 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：圆环.014 材质=Room01_bronze 着色器=DUIZHAO/Stylized Reveal 半径=2.52
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.007 材质=Room01_pottery 着色器=DUIZHAO/Stylized Reveal 半径=2.11
+[Room1PuzzleTest] 收尾接管：柱体.171 材质=Wood 1 着色器=DUIZHAO/Stylized Reveal 半径=1.89
+]]></output>
+        </test-case>
+        <test-case id="1006" name="PatchThenPlaceThenFinale" fullname="Room1PuzzlePlayModeTests.PatchThenPlaceThenFinale" methodname="PatchThenPlaceThenFinale" classname="Room1PuzzlePlayModeTests" runstate="Runnable" seed="403798877" result="Passed" start-time="2026-11-15 15:51:21Z" end-time="2026-11-15 15:51:40Z" duration="18.666335" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+HIT col=Retopo_柱体.015 | renderer=Retopo_柱体.015 | mat=Room01_porcelain
+[Room1PuzzleTest] 射线停留 1.5 秒后半径 0.70 米，器物最大边 2.94 米
+HIT col=Retopo_柱体.008 | renderer=Retopo_柱体.008 | mat=Room01_pottery
+HIT col=FloorCollider | renderer=null | mat=(no material)
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+[RoomPuzzleManager] Puzzle complete. Slots=8
+[Room1PuzzleTest] 完成后恢复 93 个零件，进度 100%
+[Room1PuzzleTest] 收尾接管：立方体.202 材质=Aluminium 2 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.008 材质=Room01_pottery 着色器=DUIZHAO/Stylized Reveal 半径=2.15
+[Room1PuzzleTest] 收尾接管：圆环.025 材质=Asphalt 2 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：立方体.319 材质=Asphalt 2 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：球体.067 材质=Room01_porcelain 着色器=DUIZHAO/Stylized Reveal 半径=1.57
+[Room1PuzzleTest] 收尾接管：柱体.196 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.15
+[Room1PuzzleTest] 收尾接管：球体.068 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.47
+[Room1PuzzleTest] 收尾接管：柱体.174 材质=Rock 2 着色器=DUIZHAO/Stylized Reveal 半径=1.79
+[Room1PuzzleTest] 收尾接管：圆环.024 材质=Plaster 4 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：圆环.047 材质=Room01_pottery 着色器=DUIZHAO/Stylized Reveal 半径=1.14
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.007 材质=Room01_pottery 着色器=DUIZHAO/Stylized Reveal 半径=2.11
+[Room1PuzzleTest] 收尾接管：立方体.191 材质=RM metal rust red 着色器=DUIZHAO/Stylized Reveal 半径=1.16
+[Room1PuzzleTest] 收尾接管：圆环 材质=Room01_jade 着色器=DUIZHAO/Stylized Reveal 半径=1.97
+[Room1PuzzleTest] 收尾接管：环体.031 材质=RM metal old 着色器=DUIZHAO/Stylized Reveal 半径=2.05
+[Room1PuzzleTest] 收尾接管：柱体.037 材质=Iron 4 着色器=DUIZHAO/Stylized Reveal 半径=1.52
+[Room1PuzzleTest] 收尾接管：圆环.006 材质=Plastic 2 着色器=DUIZHAO/Stylized Reveal 半径=2.15
+[Room1PuzzleTest] 收尾接管：圆环.018 材质=Room01_porcelain 着色器=DUIZHAO/Stylized Reveal 半径=1.15
+[Room1PuzzleTest] 收尾接管：柱体.176 材质=RM aluminum used 着色器=DUIZHAO/Stylized Reveal 半径=2.27
+[Room1PuzzleTest] 收尾接管：立方体.096 材质=Plastic 2 着色器=DUIZHAO/Stylized Reveal 半径=1.68
+[Room1PuzzleTest] 收尾接管：Retopo_Sphere.028 材质=Metal Plates 5 着色器=DUIZHAO/Stylized Reveal 半径=0.95
+[Room1PuzzleTest] 收尾接管：Retopo_Sphere.026 材质=Aluminium 4 着色器=DUIZHAO/Stylized Reveal 半径=0.95
+[Room1PuzzleTest] 收尾接管：立方体.187 材质=Aluminium 4 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：柱体.185 材质=RM metal with dents 着色器=DUIZHAO/Stylized Reveal 半径=2.48
+[Room1PuzzleTest] 收尾接管：立方体.194 材质=Foil 着色器=DUIZHAO/Stylized Reveal 半径=1.85
+[Room1PuzzleTest] 收尾接管：柱体.192 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=3.16
+[Room1PuzzleTest] 收尾接管：立方体.196 材质=Plastic 2 着色器=DUIZHAO/Stylized Reveal 半径=2.24
+[Room1PuzzleTest] 收尾接管：Lathe.004 材质=RM steel sawed 着色器=DUIZHAO/Stylized Reveal 半径=2.11
+[Room1PuzzleTest] 收尾接管：1 材质=Room01_jade 着色器=DUIZHAO/Stylized Reveal 半径=1.14
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.015 材质=Room01_porcelain 着色器=DUIZHAO/Stylized Reveal 半径=2.53
+[Room1PuzzleTest] 收尾接管：柱体.205 材质=Painted Wood 6 着色器=DUIZHAO/Stylized Reveal 半径=1.63
+[Room1PuzzleTest] 收尾接管：立方体.101 材质=Plaster 1 着色器=DUIZHAO/Stylized Reveal 半径=1.55
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.035 材质=Asphalt 5 着色器=DUIZHAO/Stylized Reveal 半径=1.23
+[Room1PuzzleTest] 收尾接管：立方体.201 材质=Wood 1 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：柱体.172 材质=Aluminium 2 着色器=DUIZHAO/Stylized Reveal 半径=1.26
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.030 材质=RM metal beam rusty 着色器=DUIZHAO/Stylized Reveal 半径=2.42
+[Room1PuzzleTest] 收尾接管：立方体.185 材质=RM brass spotty 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：圆环.015 材质=Room01_bronze 着色器=DUIZHAO/Stylized Reveal 半径=3.10
+[Room1PuzzleTest] 收尾接管：柱体.188 材质=RM metal rust red 着色器=DUIZHAO/Stylized Reveal 半径=2.03
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.034 材质=bamboo 着色器=DUIZHAO/Stylized Reveal 半径=1.44
+[Room1PuzzleTest] 收尾接管：圆环.021 材质=RM wood panel lacquered 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+[Room1PuzzleTest] 收尾接管：立方体.118 材质=Fabric 1 着色器=DUIZHAO/Stylized Reveal 半径=1.19
+[Room1PuzzleTest] 收尾接管：环体.034 材质=Glass 1 着色器=DUIZHAO/Stylized Reveal 半径=1.82
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.038 材质=Bark 着色器=DUIZHAO/Stylized Reveal 半径=2.16
+[Room1PuzzleTest] 收尾接管：平面.011 材质=Leather 3 着色器=DUIZHAO/Stylized Reveal 半径=2.02
+[Room1PuzzleTest] 收尾接管：圆环.014 材质=Room01_bronze 着色器=DUIZHAO/Stylized Reveal 半径=2.52
+[Room1PuzzleTest] 收尾接管：立方体.117 材质=Leather 3 着色器=DUIZHAO/Stylized Reveal 半径=1.94
+[Room1PuzzleTest] 收尾接管：柱体.204 材质=Room01_wood 着色器=DUIZHAO/Stylized Reveal 半径=3.24
+[Room1PuzzleTest] 收尾接管：圆环.016 材质=Room01_bronze 着色器=DUIZHAO/Stylized Reveal 半径=1.99
+[Room1PuzzleTest] 收尾接管：立方体.116 材质=Concrete 1 着色器=DUIZHAO/Stylized Reveal 半径=5.59
+[Room1PuzzleTest] 收尾接管：圆环.052 材质=Room01_porcelain 着色器=DUIZHAO/Stylized Reveal 半径=1.15
+[Room1PuzzleTest] 收尾接管：球体.072 材质=Leather 3 着色器=DUIZHAO/Stylized Reveal 半径=1.18
+[Room1PuzzleTest] 收尾接管：圆环.010 材质=Iron 3 着色器=DUIZHAO/Stylized Reveal 半径=1.84
+[Room1PuzzleTest] 收尾接管：立方体.119 材质=Metal Plates 5 着色器=DUIZHAO/Stylized Reveal 半径=1.46
+[Room1PuzzleTest] 收尾接管：平面.004 材质=RM copper used 着色器=DUIZHAO/Stylized Reveal 半径=1.82
+[Room1PuzzleTest] 收尾接管：立方体.186 材质=Wood Planks 4 着色器=DUIZHAO/Stylized Reveal 半径=1.21
+[Room1PuzzleTest] 收尾接管：圆环.022 材质=Metal Plates 5 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.025 材质=Painted Wood 4 着色器=DUIZHAO/Stylized Reveal 半径=1.93
+[Room1PuzzleTest] 收尾接管：贝塞尔曲线.016 材质=Asphalt 4 着色器=DUIZHAO/Stylized Reveal 半径=3.42
+[Room1PuzzleTest] 收尾接管：柱体.175 材质=RM gravel granite 着色器=DUIZHAO/Stylized Reveal 半径=1.36
+[Room1PuzzleTest] 收尾接管：圆环.008 材质=Concrete 5 着色器=DUIZHAO/Stylized Reveal 半径=2.61
+[Room1PuzzleTest] 收尾接管：柱体.036 材质=Metal Plates 4 着色器=DUIZHAO/Stylized Reveal 半径=1.42
+[Room1PuzzleTest] 收尾接管：环体.001 材质=Asphalt 4 着色器=DUIZHAO/Stylized Reveal 半径=1.57
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.033 材质=Foil 着色器=DUIZHAO/Stylized Reveal 半径=2.08
+[Room1PuzzleTest] 收尾接管：柱体.055 材质=Concrete 1 着色器=DUIZHAO/Stylized Reveal 半径=3.17
+[Room1PuzzleTest] 收尾接管：柱体.194 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=3.16
+[Room1PuzzleTest] 收尾接管：球体.069 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.47
+[Room1PuzzleTest] 收尾接管：圆环.012 材质=Room01_jade 着色器=DUIZHAO/Stylized Reveal 半径=1.88
+[Room1PuzzleTest] 收尾接管：圆环.013 材质=Room01_bamboo 着色器=DUIZHAO/Stylized Reveal 半径=3.23
+[Room1PuzzleTest] 收尾接管：立方体.197 材质=Iron 3 着色器=DUIZHAO/Stylized Reveal 半径=2.24
+[Room1PuzzleTest] 收尾接管：球体.063 材质=metal 着色器=DUIZHAO/Stylized Reveal 半径=1.18
+[Room1PuzzleTest] 收尾接管：柱体.187 材质=Glass 2 着色器=DUIZHAO/Stylized Reveal 半径=1.51
+[Room1PuzzleTest] 收尾接管：柱体.195 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.43
+[Room1PuzzleTest] 收尾接管：柱体.003 材质=RM gravel granite 着色器=DUIZHAO/Stylized Reveal 半径=1.17
+[Room1PuzzleTest] 收尾接管：柱体.304 材质=RM metal old 着色器=DUIZHAO/Stylized Reveal 半径=1.78
+[Room1PuzzleTest] 收尾接管：圆环.023 材质=RM wood panel lacquered 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：Retopo_柱体.001 材质=Room01_stone 着色器=DUIZHAO/Stylized Reveal 半径=2.15
+[Room1PuzzleTest] 收尾接管：Retopo_Sphere.027 材质=Copper 着色器=DUIZHAO/Stylized Reveal 半径=0.95
+[Room1PuzzleTest] 收尾接管：立方体.188 材质=RM steel sawed 着色器=DUIZHAO/Stylized Reveal 半径=1.10
+[Room1PuzzleTest] 收尾接管：圆环.026 材质=RM steel cast raw 着色器=DUIZHAO/Stylized Reveal 半径=1.20
+[Room1PuzzleTest] 收尾接管：Retopo_Lathe.023 材质=Paper 4 着色器=DUIZHAO/Stylized Reveal 半径=1.84
+[Room1PuzzleTest] 收尾接管：圆环.009 材质=Plaster 3 着色器=DUIZHAO/Stylized Reveal 半径=2.36
+[Room1PuzzleTest] 收尾接管：柱体.171 材质=Wood 1 着色器=DUIZHAO/Stylized Reveal 半径=1.89
+[Room1PuzzleTest] 收尾接管：柱体.197 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.15
+[Room1PuzzleTest] 收尾接管：柱体.038 材质=Painted Wood 3 着色器=DUIZHAO/Stylized Reveal 半径=1.52
+[Room1PuzzleTest] 收尾接管：立方体.184 材质=Rock 2 着色器=DUIZHAO/Stylized Reveal 半径=1.18
+[Room1PuzzleTest] 收尾接管：柱体.001 材质=RM copper used 着色器=DUIZHAO/Stylized Reveal 半径=1.83
+[Room1PuzzleTest] 收尾接管：柱体.193 材质=Room01_lacquer 着色器=DUIZHAO/Stylized Reveal 半径=1.43
+[Room1PuzzleTest] 收尾接管：环体.002 材质=Painted Wood 4 着色器=DUIZHAO/Stylized Reveal 半径=1.65
+[Room1PuzzleTest] 收尾接管：圆环.007 材质=Leather 3 着色器=DUIZHAO/Stylized Reveal 半径=1.83
+[Room1PuzzleTest] 收尾接管：环体.033 材质=Chipboard 着色器=DUIZHAO/Stylized Reveal 半径=4.24
+[Room1PuzzleTest] 收尾接管：柱体.170 材质=Painted Wood 6 着色器=DUIZHAO/Stylized Reveal 半径=3.01
+[Room1PuzzleTest] 收尾接管：圆环.019 材质=Room01_pottery 着色器=DUIZHAO/Stylized Reveal 半径=1.14
+[Room1PuzzleTest] 收尾接管：立方体.190 材质=RM copper hammered 着色器=DUIZHAO/Stylized Reveal 半径=1.11
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1008" name="Room23PlayModeTests" fullname="Room23PlayModeTests" classname="Room23PlayModeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-15 15:51:40Z" end-time="2026-11-15 15:52:00Z" duration="19.826980" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1009" name="Room2_MatchesRoom1" fullname="Room23PlayModeTests.Room2_MatchesRoom1" methodname="Room2_MatchesRoom1" classname="Room23PlayModeTests" runstate="Runnable" seed="593253006" result="Passed" start-time="2026-11-15 15:51:40Z" end-time="2026-11-15 15:51:50Z" duration="9.554093" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+[RoomPuzzleManager] Puzzle complete. Slots=4
+[Room23Test] 2 号房：4 个槽位全部放对，方形光阵正常，收尾接管 56 个零件。
+]]></output>
+        </test-case>
+        <test-case id="1010" name="Room3_MatchesRoom1" fullname="Room23PlayModeTests.Room3_MatchesRoom1" methodname="Room3_MatchesRoom1" classname="Room23PlayModeTests" runstate="Runnable" seed="1428654994" result="Passed" start-time="2026-11-15 15:51:50Z" end-time="2026-11-15 15:52:00Z" duration="10.270964" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+Setting linear velocity of a kinematic body is not supported.
+Setting angular velocity of a kinematic body is not supported.
+[RoomPuzzleManager] Puzzle complete. Slots=6
+[Room23Test] 3 号房：6 个槽位全部放对，方形光阵正常，收尾接管 64 个零件。
+Saving results to: C:/Users/reborn/AppData/LocalLow/DefaultCompany/DUIZHAO\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
