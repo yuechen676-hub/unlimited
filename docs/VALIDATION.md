@@ -17,7 +17,7 @@
 | `RevealLaserPlayModeTests.LaserRevealsTargetThenRetreats` | 射线命中后半径增长，移开后回退，属性块被清理 |
 | `Room1PuzzlePlayModeTests.PatchThenPlaceThenFinale` | 一号房：局部探索 → 切换目标、前一件退回 → 放置 → 整房恢复 |
 | `Room1PuzzlePlayModeTests.GongbiV2_PatchThenPlaceThenFinale` | 同上，在工笔第二版场景中执行 |
-| `Room23PlayModeTests.Room2_MatchesRoom1` | 二号房（4 件）：槽位、放置与完成反馈和一号房一致 |
+| `Room23PlayModeTests.Room2_MatchesRoom1` | 二号房（4 件）：石台、描边材质、槽位高度、放置与完成反馈和一号房一致 |
 | `Room23PlayModeTests.Room3_MatchesRoom1` | 三号房（6 件）：同上 |
 | `GongbiV2PlayModeTests.NewMaterialsSurvivePlacementAndCompletion` | 三个房间共 18 件：放置和完成过程中材质不被覆盖，碰撞体正确，完成状态正确 |
 
@@ -29,18 +29,18 @@
 
 | 项 | 内容 |
 |---|---|
-| 日期 | 2026-11-15 |
+| 日期 | 2026-11-16 |
 | 环境 | Unity 6000.0.59f2，Windows，batch mode（`-runTests -testPlatform PlayMode`） |
 | 结果 | 6 个测试，**6 通过**，0 失败，0 跳过 |
-| 总耗时 | 78.7 s |
-| 原始结果 | [playmode-results-20261115.xml](evidence/tests/playmode-results-20261115.xml) |
+| 总耗时 | 77.2 s |
+| 原始结果 | [playmode-results-20261116.xml](evidence/tests/playmode-results-20261116.xml) |
 
 | 测试 | 耗时 |
 |---|---:|
-| GongbiV2 · NewMaterialsSurvivePlacementAndCompletion | 12.8 s |
-| RevealLaser · LaserRevealsTargetThenRetreats | 7.8 s |
-| Room1Puzzle · PatchThenPlaceThenFinale | 19.5 s |
-| Room1Puzzle · GongbiV2_PatchThenPlaceThenFinale | 18.7 s |
+| GongbiV2 · NewMaterialsSurvivePlacementAndCompletion | 12.0 s |
+| RevealLaser · LaserRevealsTargetThenRetreats | 7.5 s |
+| Room1Puzzle · PatchThenPlaceThenFinale | 18.4 s |
+| Room1Puzzle · GongbiV2_PatchThenPlaceThenFinale | 19.5 s |
 | Room23 · Room2_MatchesRoom1 | 9.6 s |
 | Room23 · Room3_MatchesRoom1 | 10.3 s |
 
